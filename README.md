@@ -10,4 +10,23 @@
 
 Πληροφορίες [εδώ](https://git-scm.com/)
 
-Πρόσθεσε το git στο σύστημα σου. Αν έχεις ερώτηση, στείλε μου μήνυμα.
+Πρόσθεσε το git στο σύστημα σου.
+
+Στείλε μου το εμαιλ σου που χρησιμοποιείς στο GitHub. Θα σε προσθέσω στο προτζεκτ.
+
+```
+# Στο command line ή στο git bash κάνε αυτό
+$ git clone https://github.com/vaclavnemec/greek.git
+$ git branch fixing-typos
+$ git checkout fixing-typos
+```
+
+Άνοιξε README.md και διόρθωσε τα λάθη.
+
+```
+# Συνέχισε στο command line
+$ git add README.md
+$ git commit -m "Fixing mistakes"
+$ git push origin fixing-typos
+```
+
