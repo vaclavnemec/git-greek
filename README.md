@@ -17,6 +17,7 @@
 ```
 # Στο command line ή στο git bash κάνε αυτό
 $ git clone https://github.com/vaclavnemec/greek.git
+$ cd greek
 $ git branch fixing-typos
 $ git checkout fixing-typos
 ```
